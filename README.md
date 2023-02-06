@@ -18,35 +18,28 @@
   - [Setup](#setup)
   - [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
-- [Author](#Author)
 
 ## Overview
 
 ### Project Description
 
-- General project description
+- This is a simple project demo of sections with triangular, curved, and multiple layered bounderies
 
 ### Features
 
-- List of project features
+- Includes sections styled with Diagonal, spiked, waves, and curved boundaries, as well as a bonuse stacked curve background
 
 ### Screenshots
 
-![Example desktop screenshot](./img/screenshot-desktop.png)
+![Desktop](./assets/screenshots/desktop-screenshot.png)
 
 <details>
 
   <summary>Click here to show mobile screenshot</summary>
 
-![Example mobile screenshot](./img/screenshot-mobile.png)
+![Mobile](./assets/screenshots/mobile-screenshot.png)
 
 </details>
-
-Add a screenshot. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 ## My Process
 
@@ -54,47 +47,45 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [CSS Modules](https://styled-components.com/) - For styles
+- linear gradients
+- svg masks
 
 ### Continued Development
 
-- an issue that needs work
-
 ### What I learned
 
-Include unexpected issues / bugs encountered. How were they resolved?
+- I had not used css mask image before, for example:
 
-- an issue I found
+```css
+.spikes::before,
+.spikes::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: var(--spike-height);
+  background: var(--body-bg);
+  -webkit-mask-image: url("assets/triangle.svg");
+  -webkit-mask-size: var(--spike-width) var(--spike-height);
+  mask-image: url("assets/triangle.svg");
+  mask-size: var(--spike-width) var(--spike-height);
+}
+```
 
 ## Instructions
 
 ### Setup
 
-`npm install`
+No setup required.
 
 ### Usage
 
-- `npm run dev`
-
-  or
-
-- `npm run build` then `npm run preview`
+Open index.html with your favourite live server.
 
 ## Useful resources
 
 - [css-generators.com/](https://css-generators.com/custom-borders/) - Generator for Zig-Zag, Rounded, and Wavy borders
 - [shapedivider.app](https://www.shapedivider.app) - Custom Shape Dividers.
 - [haikei.app](https://app.haikei.app) - Generate unique SVG design assets.
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-- LinkedIn Etc - [Add your name here](https://www.your-site.com)
 
 ## Acknowledgements
 
