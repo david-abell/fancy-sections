@@ -105,9 +105,19 @@ section {
 }
 
 .curves {
+  /* Curve svgs from https://www.shapedivider.app */
   position: relative;
   background: linear-gradient(to right, #6900f2, #e68c05);
   min-height: 30rem;
+}
+
+.curves-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .curves-bottom {
@@ -120,14 +130,16 @@ section {
   transform: rotate(180deg);
 }
 
-.curves-bottom svg {
+.curves-bottom svg,
+.curves-top svg {
   position: relative;
   display: block;
-  width: calc(160% + 1.3px);
-  height: 197px;
+  width: calc(150% + 1.3px);
+  height: 7rem;
 }
 
-.curves-bottom .shape-fill {
+.curves-bottom .shape-fill,
+.curves-top .shape-fill {
   fill: var(--body-bg);
 }
 
