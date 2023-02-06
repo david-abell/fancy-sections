@@ -29,7 +29,8 @@ body {
 }
 
 .site-title {
-  font-size: 3rem;
+  font-size: 5rem;
+  padding-block: 3rem;
 }
 
 .section-title {
@@ -104,17 +105,39 @@ section {
 }
 
 .curves {
-  background: linear-gradient(to right, #1daef1, #a605e6);
+  position: relative;
+  background: linear-gradient(to right, #6900f2, #e68c05);
+  min-height: 30rem;
+}
 
-  /* Mask generated from: https://css-generators.com/custom-borders/ */
-  --mask: radial-gradient(38.59px at 50% 53px, #000 99%, #0000 101%)
-      calc(50% - 40px) 0/80px 51% repeat-x,
-    radial-gradient(38.59px at 50% -33px, #0000 99%, #000 101%) 50% 20px/80px
-      calc(51% - 20px) repeat-x,
-    radial-gradient(38.59px at 50% calc(100% - 53px), #000 99%, #0000 101%)
-      calc(50% - 40px) 100%/80px 51% repeat-x,
-    radial-gradient(38.59px at 50% calc(100% + 33px), #0000 99%, #000 101%) 50%
-      calc(100% - 20px) / 80px calc(51% - 20px) repeat-x;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
+.curves-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curves-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(160% + 1.3px);
+  height: 197px;
+}
+
+.curves-bottom .shape-fill {
+  fill: var(--body-bg);
+}
+
+.stacked-waves-inner {
+  aspect-ratio: 900/200;
+  width: 100%;
+  background: no-repeat center/cover url("./assets/stacked-waves.svg");
+  /* combined properties: */
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./assets/stacked-waves.svg"); */
 }
