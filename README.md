@@ -104,8 +104,9 @@ Include unexpected issues / bugs encountered. How were they resolved?
 
 <br/><br/>
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [css-generators.com/](https://css-generators.com/custom-borders/) - Generator for Zig-Zag, Rounded, and Wavy borders
+- [shapedivider.app](https://www.shapedivider.app) - Custom Shape Dividers.
+- [haikei.app](https://app.haikei.app) - Generate unique SVG design assets.
 
 ## Author
 
@@ -122,3 +123,6 @@ Include unexpected issues / bugs encountered. How were they resolved?
 ---
 
 <br/><br/>
+
+- [Spice up your site | Easy waves, angles, & other creative shapes with CSS](https://youtu.be/hWGgw1K-i8Y) - Keven Powell
+- [Build a Curvaceous Homepage // Wavy Background Tutorial with SVG & CSS](https://youtu.be/lPJVi797Uy0) - Keven Powell
