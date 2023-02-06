@@ -1,7 +1,7 @@
 # Fancy Sections
 
 > A demonstration of styled sections and section borders.
-> Live demo [_here_](live_link_here).
+> Live demo [_here_](http://david-abell.github.io/fancy-sections).
 
 ## Table of Contents
 
