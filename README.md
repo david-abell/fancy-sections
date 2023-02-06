@@ -22,8 +22,6 @@
 
 ## Overview
 
----
-
 ### Project Description
 
 - General project description
@@ -52,8 +50,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My Process
 
----
-
 ### Built With
 
 - Semantic HTML5 markup
@@ -76,8 +72,6 @@ Include unexpected issues / bugs encountered. How were they resolved?
 
 ## Instructions
 
----
-
 ### Setup
 
 `npm install`
@@ -92,23 +86,17 @@ Include unexpected issues / bugs encountered. How were they resolved?
 
 ## Useful resources
 
----
-
 - [css-generators.com/](https://css-generators.com/custom-borders/) - Generator for Zig-Zag, Rounded, and Wavy borders
 - [shapedivider.app](https://www.shapedivider.app) - Custom Shape Dividers.
 - [haikei.app](https://app.haikei.app) - Generate unique SVG design assets.
 
 ## Author
 
----
-
 - Website - [Add your name here](https://www.your-site.com)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 - LinkedIn Etc - [Add your name here](https://www.your-site.com)
 
 ## Acknowledgements
-
----
 
 - [Spice up your site | Easy waves, angles, & other creative shapes with CSS](https://youtu.be/hWGgw1K-i8Y) - Keven Powell
 - [Build a Curvaceous Homepage // Wavy Background Tutorial with SVG & CSS](https://youtu.be/lPJVi797Uy0) - Keven Powell
