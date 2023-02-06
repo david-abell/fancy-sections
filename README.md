@@ -24,8 +24,6 @@
 
 ---
 
-<br/><br/>
-
 ### Project Description
 
 - General project description
@@ -46,8 +44,6 @@
 
 </details>
 
-<br/><br/>
-
 Add a screenshot. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
@@ -57,8 +53,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My Process
 
 ---
-
-<br/><br/>
 
 ### Built With
 
@@ -84,8 +78,6 @@ Include unexpected issues / bugs encountered. How were they resolved?
 
 ---
 
-<br/><br/>
-
 ### Setup
 
 `npm install`
@@ -102,8 +94,6 @@ Include unexpected issues / bugs encountered. How were they resolved?
 
 ---
 
-<br/><br/>
-
 - [css-generators.com/](https://css-generators.com/custom-borders/) - Generator for Zig-Zag, Rounded, and Wavy borders
 - [shapedivider.app](https://www.shapedivider.app) - Custom Shape Dividers.
 - [haikei.app](https://app.haikei.app) - Generate unique SVG design assets.
@@ -112,8 +102,6 @@ Include unexpected issues / bugs encountered. How were they resolved?
 
 ---
 
-<br/><br/>
-
 - Website - [Add your name here](https://www.your-site.com)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 - LinkedIn Etc - [Add your name here](https://www.your-site.com)
@@ -121,8 +109,6 @@ Include unexpected issues / bugs encountered. How were they resolved?
 ## Acknowledgements
 
 ---
-
-<br/><br/>
 
 - [Spice up your site | Easy waves, angles, & other creative shapes with CSS](https://youtu.be/hWGgw1K-i8Y) - Keven Powell
 - [Build a Curvaceous Homepage // Wavy Background Tutorial with SVG & CSS](https://youtu.be/lPJVi797Uy0) - Keven Powell
